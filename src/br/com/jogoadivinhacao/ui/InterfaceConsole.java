@@ -34,14 +34,14 @@ public class InterfaceConsole {
         }
 
         System.out.println("\n🎯 Dificuldade selecionada: " + dificuldade.getNome());
-        System.out.println("Adivinhe o número entre 1 e " + dificuldade.getLimite() + "\n");
+        System.out.println("Adivinhe o número entre 1 e " + dificuldade.getLimite());
 
         return dificuldade;
     }
 
     public int solicitarPalpite(Jogo jogo) {
         int tentativasUsadas = jogo.getDificuldade().getMaxTentativas() - jogo.getTentativasRestantes();
-        System.out.println("─────────────────────────────────");
+        System.out.println("─────────────────────────────────" + "\n");
         System.out.println("Tentativa " + (tentativasUsadas + 1) + " de " + jogo.getDificuldade().getMaxTentativas());
         return validador.lerInteiro("Seu palpite: ");
     }
@@ -62,7 +62,7 @@ public class InterfaceConsole {
 
     public void exibirDica(String dica) {
         if (dica != null) {
-            System.out.println("\n💡 " + dica + "\n");
+            System.out.println("\n💡 " + dica);
         }
     }
     public void exibirDerrota(int numeroSecreto) {
@@ -76,7 +76,7 @@ public class InterfaceConsole {
 
     public void exibirDespedida() {
         System.out.println("\n╔═══════════════════════════════════╗");
-        System.out.println("║  OBRIGADO POR JOGAR! ATÉ A PRÓXIMA! ║");
+        System.out.println("║ OBRIGADO POR JOGAR! ATÉ A PRÓXIMA!║");
         System.out.println("╚═══════════════════════════════════╝\n");
     }
 }
