@@ -13,7 +13,7 @@ public class InterfaceConsole {
 
     public void exibirBoasVindas() {
         System.out.println("\n╔═══════════════════════════════════╗");
-        System.out.println("║  BEM-VINDO AO JOGO DE ADIVINHAÇÃO! ║");
+        System.out.println("║ BEM-VINDO AO JOGO DE ADIVINHAÇÃO! ║");
         System.out.println("╚═══════════════════════════════════╝\n");
     }
 
