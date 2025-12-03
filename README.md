@@ -60,7 +60,7 @@ src/
 - **Java 8+**
 - **IntelliJ IDEA** - IDE
 - **Git/GitHub** - Controle de versão
-- **JUnit 5** - Testes unitários *(em desenvolvimento)*
+- **JUnit 5** - Testes unitários
 
 ## 🚀 Como Executar
 
